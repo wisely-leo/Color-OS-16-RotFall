@@ -1,6 +1,6 @@
 # Color-OS-16-RotFall
 
-> LSPosed 模块：试图修复 ColorOS 16（C16 / OPPO）上**横屏应用退出回桌面时的旋转回落过渡动画**。
+> LSPosed 模块：试图新增 ColorOS 16（C16 / OPPO）上**横屏应用退出回桌面时的旋转回落过渡动画**。
 
 模块 ID：`com.rotfix.probe`
 
