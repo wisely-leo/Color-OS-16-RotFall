@@ -3,7 +3,6 @@
 > LSPosed 模块：试图修复 ColorOS 16（C16 / OPPO）上**横屏应用退出回桌面时的旋转回落过渡动画**。
 
 模块 ID：`com.rotfix.probe`
-作者：wisely-leo
 
 ---
 
@@ -31,9 +30,7 @@
 ```
 
 ### 关于 `src/`
-
-- 来源：`RotFixProbe v65` APK，使用 jadx（开启 inconsistent code 显示）反编译后**去除注释**整理，**全部方法均已还原**（无 `not decompiled` 占位）。
-- 仍**不能直接编译**：缺少原有工程结构与依赖（libxposed API 等），仅供阅读参考。
+- **不能直接编译**：缺少工程结构与依赖（libxposed API 等），仅供阅读参考。
 - 日志开关已处理为"**保留完整实现、但运行时立即返回**"（`log(...)` 方法开头 `return`），因此运行时不产生日志输出。
 
 ---
